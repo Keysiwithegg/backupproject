@@ -34,8 +34,8 @@ const Account = () => {
             <span>Work Starts</span>
             <h6>8:00 am</h6>
           </div>
-          
-          <div className="left bg">
+
+          <div className="left noBg">
             <span>Work Ends</span>
             <h6>5:00 pm</h6>
           </div>

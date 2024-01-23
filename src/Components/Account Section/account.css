@@ -19,7 +19,7 @@
 
 .account {
   width: 25%;
-  background: var(--cardColor);
+  background: var(--darkGreenColor);
   height: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -94,4 +94,30 @@
   font-size: var(--h3FontSize);
   display: block;
   margin-bottom: 0.3rem;
+}
+.account .accountDetails .hoursDiv .hoursCard {
+  margin: auto;
+  padding: 0.5rem;
+  background: var(--cardColor);
+  justify-content: space-between;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+.account .accountDetails .hoursDiv .hoursCard .right, .account .accountDetails .hoursDiv .hoursCard .left {
+  color: var(--darkGreenColor);
+}
+.account .accountDetails .hoursDiv .hoursCard .right span, .account .accountDetails .hoursDiv .hoursCard .left span {
+  display: block;
+  font-size: var(--smallFontSize);
+  padding-bottom: 0.3rem;
+}
+.account .accountDetails .hoursDiv .hoursCard .right h6, .account .accountDetails .hoursDiv .hoursCard .left h6 {
+  font-size: var(--h3FontSize);
+}
+.account .accountDetails .hoursDiv .hoursCard .bg, .account .accountDetails .hoursDiv .hoursCard .noBg {
+  padding: 1rem 2rem;
+  color: var(--darkGreenColor);
+  border-radius: 0.7rem;
 }/*# sourceMappingURL=account.css.map */
