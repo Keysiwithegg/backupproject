@@ -3,6 +3,7 @@ import './bottom.css'
 
 import Chart from "react-apexcharts"
 
+import img from '../../../Assets/laptop.jpg'
 
 const Bottom = () => {
 
@@ -11,7 +12,7 @@ const Bottom = () => {
       colors: ['#01565B', '#5ABA8A'],
       chart :{
         id: 'basic-bar',
-        tootbar:{
+        toolbar:{
           show: true,
         },
       },
@@ -48,6 +49,22 @@ const Bottom = () => {
         width='500'
         />
       </div>
+
+      <div className="scheduleDiv">
+        <span className="title">Upcoming Schedule</span>
+
+        <div className="singleTask flex">
+          <div className="imgDiv flex">
+            <img src={img} alt="Task Image" />
+          </div>
+          <div className="taskInfo">
+            <span className="task">Desk Time Redesign</span>
+            <span className="span status">Working On</span>
+          </div>
+          <span classname="time">09:30 AM</span>
+        </div>
+      </div>
+
     </div>
   )
 }
