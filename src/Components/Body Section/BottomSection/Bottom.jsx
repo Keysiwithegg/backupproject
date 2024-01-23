@@ -59,11 +59,45 @@ const Bottom = () => {
           </div>
           <div className="taskInfo">
             <span className="task">Desk Time Redesign</span>
-            <span className="span status">Working On</span>
+            <span className="status">Working On</span>
           </div>
-          <span classname="time">09:30 AM</span>
+          <span classname="time">9:30 AM </span>
         </div>
+
+        <div className="scheduleDiv">
+
+        <div className="singleTask flex">
+          <div className="imgDiv flex">
+            <img src={img} alt="Task Image" />
+          </div>
+          <div className="taskInfo">
+            <span className="task">Coding Activity</span>
+            <span className="status">Pending</span>
+          </div>
+          <span classname="time">9:30 PM </span>
+        </div>
+
+        <div className="singleTask flex">
+          <div className="imgDiv flex">
+            <img src={img} alt="Task Image" />
+          </div>
+          <div className="taskInfo">
+            <span className="task">Final Exam</span>
+            <span className="status">Upcoming</span>
+          </div>
+          <span classname="time">10:00PM</span>
+        </div>
+
+        <div className="btn">
+          See All Activities
+        </div>
+
+
       </div>
+
+
+      </div>
+
 
     </div>
   )

@@ -51,4 +51,35 @@
 }
 .bottom .scheduleDiv .singleTask .imgDiv img {
   width: 20px;
+}
+.bottom .scheduleDiv .singleTask .taskInfo {
+  flex: 1;
+}
+.bottom .scheduleDiv .singleTask .taskInfo .task {
+  font-weight: 700;
+  font-size: var(--h3FontSize);
+  display: block;
+  gap: 0.2rem;
+  color: var(--darkGreenColor);
+}
+.bottom .scheduleDiv .singleTask .taskInfo .status {
+  font-size: var(--smallestFontSize);
+  color: var(--darkGreenColor);
+  font-weight: 500;
+  opacity: 0.9;
+}
+.bottom .scheduleDiv .singleTask .time {
+  font-weight: 600;
+  color: var(--darkGreenColor);
+  opacity: 0.8;
+}
+.bottom .scheduleDiv .btn {
+  background: var(--darkGreenColor);
+  color: var(--yellowColor);
+  border-radius: 3rem;
+  text-align: center;
+  font-weight: 500;
+}
+.bottom .scheduleDiv .btn:hover {
+  background: var(--cardColor);
 }/*# sourceMappingURL=bottom.css.map */
