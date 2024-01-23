@@ -1,0 +1,110 @@
+:root{
+    --yellowColor: #e1f296;
+    --lightGreenColor: #5aba8a;
+    --darkGreenColor: #01565b;
+    --textColor: #044561;
+    --h1Color: #012e33;
+    --cardColor: #4c9fa7;
+    --whiteColor: hsl(0, 0%, 100%);
+    --greyText: rgb(190, 190, 190);
+    --InputColor: hsl(224, 39%, 80%);
+
+    /*Font and Tpography */
+    --h1FontSize: 2.5rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: .938rem;
+    --smallFontSize: .813rem;
+    --smallestFontSize: .75rem;
+}
+
+.account{
+    width: 25%;
+    background:var(--cardColor) ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 2rem 2.5rem;
+
+    .icons{
+        justify-content: space-between;
+        color: var(--whiteColor);
+        cursor: pointer;
+
+        .icon{
+            background-color:rgba(255, 255, 255, 0.151);
+            border-radius: 50%;
+            padding: .4rem;
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    .accountDetails{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        margin-top: 2rem;
+
+        .imageDiv{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+
+            img{
+                width: 70px;
+                display: block;
+                margin: auto;
+                background: var(--imagebg);
+                border-radius: 50%;
+                padding: 5px;
+                margin-bottom: 1rem;
+            }
+
+            .name{
+                font-size: var(--h2FontSize);
+                color: var(--whiteColor);
+                font-weight: 500;
+                text-align: center;
+            }
+
+            .position{
+                padding: .5rem 0;
+                color: var(--whiteColor);
+                opacity: .6;
+                font-size: var(--smallFontSize);
+                text-align: center;
+            }
+
+            .btn{
+                border-radius: 3rem;
+                margin: 1rem 0;
+                width: 170px;
+                gap: 1rem;
+
+                &:hover{
+                    background:var(--InputColor) ;
+                    color: var(--textColor);
+                }
+            }
+        }
+        
+        .hoursDiv{
+            margin-top: 1rem;
+            text-align: center;
+
+            .title{
+                color: var(--whiteColor);
+                font-weight: 500;
+                padding-bottom: .5rem;
+                font-size: var(--h3FontSize);
+                display: block;
+                margin-bottom: .3rem;
+            }
+        }
+
+    }
+}
