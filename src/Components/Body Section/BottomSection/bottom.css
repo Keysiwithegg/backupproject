@@ -1,1 +1,54 @@
-/*# sourceMappingURL=bottom.css.map */
+:root {
+  --yellowColor: #e1f296;
+  --lightGreenColor: #5aba8a;
+  --darkGreenColor: #01565b;
+  --textColor: #044561;
+  --h1Color: #012e33;
+  --cardColor: #4c9fa7;
+  --whiteColor: hsl(0, 0%, 100%);
+  --greyText: rgb(190, 190, 190);
+  --InputColor: hsl(224, 39%, 80%);
+  /*Font and Tpography */
+  --h1FontSize: 2.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+.bottom {
+  margin-top: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.bottom .graphDiv, .bottom .scheduleDiv {
+  flex-basis: 50%;
+}
+.bottom .graphDiv .title, .bottom .scheduleDiv .title {
+  font-weight: 1000;
+  color: var(--textColor);
+  display: block;
+  padding-bottom: 1rem;
+}
+.bottom .scheduleDiv {
+  width: 100%;
+}
+.bottom .scheduleDiv .singleTask {
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.bottom .scheduleDiv .singleTask .imgDiv {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1 px solid rgb(217, 215, 215);
+  justify-content: center;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.bottom .scheduleDiv .singleTask .imgDiv img {
+  width: 20px;
+}/*# sourceMappingURL=bottom.css.map */

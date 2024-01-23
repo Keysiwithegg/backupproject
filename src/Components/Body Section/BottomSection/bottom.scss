@@ -19,7 +19,46 @@
 }
 
 .bottom{
-    margin-top: rem;
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: flex-start;
+
+    .graphDiv, .scheduleDiv{
+        flex-basis: 50%;
+        
+        .title{
+            font-weight: 1000;
+            color: var(--textColor);
+            display: block;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .scheduleDiv{
+        width: 100%;
+
+        .singleTask{
+            gap: .5rem;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin :2rem 0;
+
+            .imgDiv{
+                height: 35px;
+                width: 35px;
+                border-radius: 50%;
+                border: 1 px solid rgb(217, 215, 215);
+                justify-content: center;
+                padding: .5rem;
+                margin-right: 1rem;
+
+                img{
+                    width: 20px;
+                }
+
+            }
+        }
+    }
+
 
 }
-
